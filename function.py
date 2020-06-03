@@ -13,3 +13,11 @@ def stoff():
 
 
 stoff()
+a = 1
+try:
+    b = 'c'
+    k = a + b
+    s = 3
+except:
+    a = 2
+print(a)
